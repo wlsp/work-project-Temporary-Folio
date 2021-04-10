@@ -23,11 +23,7 @@ body {
 }
 
 /* Styling HEADS: fonts */
-h1,
-h2:not(.font2),
-h3,
-h4,
-h5 {
+h1, h2:not(.font2), h3, h4, h5 {
   font-family: Athene;
   font-weight: 100;
 }
