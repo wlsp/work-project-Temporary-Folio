@@ -74,11 +74,6 @@ header {
   font-weight: 100;
 }
 
-#nav_header a:hover {
-  color: #7d2222;
-  cursor: default;
-}
-
 .nav_item1 {
   margin-left: 15%;
 }
@@ -123,7 +118,6 @@ header h1 {
   background-position: center;
   background-size: 50% 1.5px, 1.5px 50%; /*thickness = 2px, length = 50% (25px)*/
   background-repeat: no-repeat;
-  padding: 0 0 0 0;
 }
 
 figure {
@@ -152,9 +146,11 @@ figure {
   background-color: #f4c4c4;
 }
 
-#page_01 {
-  margin: 0;
-  padding: 5% 0 0 7.5%;
+#section_01 div {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0 0 4.5% 7.5%;
+  padding: 6% 0 0 0%;
 }
 
 #section_01 h3 {
@@ -190,7 +186,7 @@ table tr td {
 
 .td_right_small,
 .td_left_small {
-  font-size: 0.7em;
+  font-size: 0.73em;
 }
 
 .td_right_small,
@@ -200,8 +196,8 @@ table tr td {
 }
 
 svg {
-  width: 40%;
-  margin: 15% 0 0 60%;
+  width: 35%;
+  margin: 15% 0 0 66.3%;
 }
 
 /* Styling Section 02 */
@@ -211,11 +207,13 @@ svg {
   background-color: #deb873;
 }
 
-#page_02 {
-  margin: 0;
+#section_02 > div {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
   text-align: right;
-  padding: 5% 7.5% 0 0;
   color: #7d2222;
+  margin: 0 7.5% 0 0;
+  padding: 10% 0 0 0;
 }
 
 #section_02 h3 {
@@ -276,9 +274,11 @@ footer {
   color: #1d8883;
 }
 
-#page_03 {
-  margin: 0;
-  padding: 6% 0 0 7.5%;
+footer div {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0 0 4.5% 7.5%;
+  padding: 6% 0 0 0%;
 }
 
 footer h5 {
@@ -295,35 +295,10 @@ footer p {
   margin: 0 0 0 30%;
 }
 
-footer a {
+footer a:not(#page03) {
   text-decoration: none;
   color: #1d8883;
 }
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-#mail:hover {
-  cursor: url('../img/mail.png'), move;
-}
-
-#dribbble:hover {
-  cursor: url('../img/dribble.png'), none;
-}
-
-#behance:hover {
-  cursor: url('../img//behance.png'), move;
-}
-
-#github:hover {
-  cursor: url('../img/github.png'), move;
-}
-
-/* footer a:nth-of-type(1) {
-  text-decoration: underline;
-  cursor: url('../img/mail.png'), move;
-} */
 
 #nav_footer ul {
   font-size: 1.3em;
@@ -333,9 +308,8 @@ footer a:hover {
   line-height: 1.85em;
 }
 
-/* ! ! ! !       S     V     G     ! ! ! */
-
-/* ! ! ! !   R  O  T  A  T  I  N  G   ! ! ! */
+/* ! ! ! !       E A S T E R       ! ! ! */
+/* ! ! ! !         E G G S        ! ! ! */
 
 #rotate_logo svg {
   -webkit-animation-name: rotate;
@@ -403,5 +377,48 @@ footer a:hover {
 
 #rotate_logo svg:hover {
   animation: none;
-  cursor: url('../img/instagram.png'), move;
+  cursor: url('../img/insta.png'), move;
+}
+
+#egg_01, #egg_02, #egg_03:hover {
+  cursor: url('../img/invaders.png'), default;
+}
+
+#mail:hover {
+  cursor: url('../img/mail.png'), move;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#dribbble:hover {
+  cursor: url('../img/dribble.png'), none;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#behance:hover {
+  cursor: url('../img//behance.png'), move;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#github:hover {
+  cursor: url('../img/github.png'), move;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.dash:hover {
+  display: inline-block;
+  width: 1.8em;
+  height: 0.8em;
+  background: linear-gradient(#f4c4c4, #f4c4c4);
+  background-position: center;
+  background-size: 50% 1.5px, 1.5px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat: no-repeat;
+}
+
+#nav_header a:hover {
+  color: #7d2222;
+  cursor: default;
 }
