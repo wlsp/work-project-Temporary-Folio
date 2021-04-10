@@ -1,0 +1,411 @@
+/* Font Import */
+
+@font-face {
+  font-family: Athene;
+  src: url(../font/Athene.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+/* 
+font-family: Athene
+font-family: 'Open Sans', sans-serif;
+Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
+*/
+/* ----  ---- ---- ---- ---- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* Styling HEADS: fonts */
+h1,
+h2:not(.font2),
+h3,
+h4,
+h5 {
+  font-family: Athene;
+  font-weight: 100;
+}
+
+/* Styling Main font */
+
+a,
+p,
+table,
+span.font2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+
+/* Styling Header */
+
+header {
+  background-color: #efe8d7;
+}
+
+/* Styling  Header Navbar */
+#nav_header {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#nav_header ul {
+  margin: 0;
+  padding: 2vh 2%;
+  background: transparent;
+  border-bottom: 0.01em solid #002a5a;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+#nav_header li {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+#nav_header a {
+  color: #002a5a;
+  font-weight: 100;
+}
+
+#nav_header a:hover {
+  color: #7d2222;
+  cursor: default;
+}
+
+.nav_item1 {
+  margin-left: 15%;
+}
+
+.nav_item2 {
+  margin-left: 53%;
+}
+
+/* Styling Header Main */
+
+header {
+  height: 200vh;
+}
+
+.h1_wrap {
+  text-align: center;
+  margin-top: 7%;
+}
+
+header h1 {
+  font-size: 10em;
+  font-weight: 100;
+  color: #002a5a;
+  border-bottom: 1px sloid #002a5a;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.h1_bd {
+  border-top: 1px solid #002a5a;
+  border-bottom: 1px solid #002a5a;
+  width: 80%;
+  margin: 0 auto;
+}
+/* Styling Long dash insider h1 */
+
+.dash {
+  display: inline-block;
+  width: 1.8em;
+  height: 0.8em;
+  background: linear-gradient(#002a5a, #002a5a);
+  background-position: center;
+  background-size: 50% 1.5px, 1.5px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat: no-repeat;
+  padding: 0 0 0 0;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+.blue_img {
+  text-align: center;
+  margin: 4% 0 0 0;
+}
+
+.font1,
+.font2 {
+  color: #002a5a;
+  font-weight: 100;
+}
+
+.font1 {
+  margin: 0 0 0 -4%;
+}
+
+/* Styling Section 01 */
+
+#section_01 {
+  height: 220vh;
+  background-color: #f4c4c4;
+}
+
+#page_01 {
+  margin: 0;
+  padding: 5% 0 0 7.5%;
+}
+
+#section_01 h3 {
+  font-size: 9em;
+  margin: 2% 0 0 0;
+  line-height: 1.2em;
+}
+
+#section_01 aside {
+  width: 35%;
+  margin: 0 0 0 55%;
+}
+
+#section_01 aside > p {
+  line-height: 2.3em;
+}
+
+/* Styling and position: Table & Logo Let's Work Together */
+
+table {
+  padding: 15% 0 0 0;
+  width: 100%;
+}
+
+table tr td {
+  border-bottom: 1px #282b29 solid;
+}
+
+.td_right_small,
+.td_principles {
+  text-align: right;
+}
+
+.td_right_small,
+.td_left_small {
+  font-size: 0.7em;
+}
+
+.td_right_small,
+.td_left_small,
+.td_left_big {
+  padding: 5% 0;
+}
+
+svg {
+  width: 30%;
+  margin: 20% 0 0 70%;
+}
+
+/* Styling Section 02 */
+
+#section_02 {
+  height: 500vh;
+  background-color: #deb873;
+}
+
+#page_02 {
+  margin: 0;
+  text-align: right;
+  padding: 5% 7.5% 0 0;
+  color: #7d2222;
+}
+
+#section_02 h3 {
+  font-size: 9em;
+  text-align: right;
+  margin: 2% 0 0 0;
+  color: #7d2222;
+}
+
+/* Styling Articles insider Section 02 */
+
+#section_02 aside {
+  width: 34.8%;
+  margin: 0 0 0 5%;
+}
+
+#section_02 aside > p {
+  line-height: 2.3em;
+  color: #7d2222;
+}
+
+#section_02 h4 {
+  font-size: 3.5em;
+  color: #7d2222;
+  position: relative;
+}
+
+.left_h4 {
+  margin: 10% 0 0 5%;
+}
+
+.right_h4 {
+  text-align: right;
+  margin: 0 5% 0 0;
+}
+
+#article_1 {
+  height: 93vh;
+}
+.article1_img {
+  width: 48%;
+  margin: -11% 0 0 33.8%;
+}
+
+#article_2 {
+  height: 85vh;
+}
+.article2_img {
+  width: 48%;
+  margin: -11% 0 0 10%;
+}
+
+/* Section 03 */
+
+footer {
+  height: 140vh;
+  background-color: #d2d2d2;
+  color: #1d8883;
+}
+
+#page_03 {
+  margin: 0;
+  padding: 6% 0 0 7.5%;
+}
+
+footer h5 {
+  font-size: 9em;
+  margin: 3% 0 0 0;
+  line-height: 1.2em;
+}
+
+footer p {
+  width: 25.7%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  margin: 0 0 0 30%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1d8883;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#mail:hover {
+  cursor: url('../img/mail.png'), move;
+}
+
+#dribbble:hover {
+  cursor: url('../img/dribble.png'), none;
+}
+
+#behance:hover {
+  cursor: url('../img//behance.png'), move;
+}
+
+#github:hover {
+  cursor: url('../img/github.png'), move;
+}
+
+/* footer a:nth-of-type(1) {
+  text-decoration: underline;
+  cursor: url('../img/mail.png'), move;
+} */
+
+#nav_footer ul {
+  font-size: 1.3em;
+  list-style-type: none;
+  text-align: right;
+  margin: 6% 5% 0 0;
+  line-height: 1.85em;
+}
+
+/* ! ! ! !       S     V     G     ! ! ! */
+
+/* ! ! ! !   R  O  T  A  T  I  N  G   ! ! ! */
+
+#rotate_logo svg {
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  -ms-animation-name: rotate;
+  -o-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 15s;
+  -moz-animation-duration: 15s;
+  -ms-animation-duration: 15s;
+  -o-animation-duration: 15s;
+  animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(-360deg);
+  }
+  to {
+    -webkit-transform: rotate(0);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(-360deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+  }
+}
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(-360deg);
+  }
+  to {
+    -ms-transform: rotate(0);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(-360deg);
+  }
+  to {
+    -o-transform: rotate(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+#rotate_logo svg:hover {
+  animation: none;
+  cursor: url('../img/instagram.png'), move;
+}
