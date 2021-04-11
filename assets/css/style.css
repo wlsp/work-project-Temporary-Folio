@@ -8,6 +8,170 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 /* 
+  font-family: Athene
+  font-family: 'Open Sans', sans-serif;
+  Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
+  */
+/* ----  ---- ---- ---- ---- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* Styling HEADS: fonts */
+h1,
+h2:not(.font2),
+h3,
+h4,
+h5 {
+  font-family: Athene;
+  font-weight: 100;
+}
+
+/* Styling Main font */
+
+a,
+p,
+table,
+span.font2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+
+/* Styling Section 01 */
+
+#section_01 {
+  height: 220vh;
+  background-color: #f4c4c4;
+}
+
+#page_01 {
+  margin: 0;
+  padding: 5% 0 0 7.5%;
+}
+
+#section_01 h3 {
+  font-size: 9em;
+  margin: 2% 0 -2% 0;
+  line-height: 1.2em;
+}
+
+#text01 {
+    color: red;
+}
+
+.text02 {
+    color: #fff;
+    opacity: 0;
+}
+
+.test01 {
+    color: hotpink;
+}
+#text01:hover + .text02 {
+    opacity: 1;
+    transition:2.5s;
+}
+
+#text:hover + .test01 {
+    color: transparent;
+}
+
+
+
+#section_01 aside {
+  width: 35%;
+  margin: 0 0 0 55%;
+}
+
+#section_01 aside > p {
+  line-height: 2.3em;
+}
+
+/* Styling and position: Table & Logo Let's Work Together */
+
+table {
+  padding: 15% 0 0 0;
+  width: 100%;
+}
+
+table tr td {
+  border-bottom: 1px #282b29 solid;
+}
+
+.td_right_small,
+.td_principles {
+  text-align: right;
+}
+
+.td_right_small,
+.td_left_small {
+  font-size: 0.7em;
+}
+
+.td_right_small,
+.td_left_small,
+.td_left_big {
+  padding: 5% 0;
+}
+.td_principles {
+    padding: 15% 0 0 0;
+}
+
+tr:hover {background-color:#f5f5f515;}
+
+img#logo_letswork {
+  width: 25%;
+  position: relative;
+  padding: 20% 0 0 76%;
+}
+
+/* Styling Section 02 */
+
+#section_02 {
+    height: 500vh;
+    background-color: #deb873;
+  }
+  
+  #page_02 {
+    margin: 0;
+    text-align: right;
+    padding: 5% 7.5% 0 0;
+    color: #7d2222;
+  }
+  
+  #section_02 h3 {
+    font-size: 9em;
+    text-align: right;
+    margin: 2% 0 0 0;
+    color: #7d2222;
+  }
+  
+  /* Styling Articles insider Section 02 */
+  
+  #section_02 aside {
+    width: 34.8%;
+    margin: 0 0 0 5%;
+  }
+  
+  #section_02 aside > p {
+    line-height: 2.3em;
+    color: #7d2222;
+  }
+/* Font Import */
+
+@font-face {
+  font-family: Athene;
+  src: url(../font/Athene.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+/* 
 font-family: Athene
 font-family: 'Open Sans', sans-serif;
 Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
@@ -118,6 +282,10 @@ header h1 {
   background-position: center;
   background-size: 50% 1.5px, 1.5px 50%; /*thickness = 2px, length = 50% (25px)*/
   background-repeat: no-repeat;
+}
+a.dash {
+  text-decoration: none;
+  cursor: default;
 }
 
 figure {
