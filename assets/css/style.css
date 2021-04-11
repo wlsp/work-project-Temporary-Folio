@@ -142,8 +142,9 @@ figure {
 /* Styling Section 01 */
 
 #section_01 {
-  height: 220vh;
+  height: 225vh;
   background-color: #f4c4c4;
+  color: #282b29;
 }
 
 #section_01 div {
@@ -418,3 +419,4 @@ footer a:not(#page03) {
   color: #7d2222;
   cursor: default;
 }
+
