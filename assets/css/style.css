@@ -249,6 +249,11 @@ header h1 {
   width: 80%;
   margin: 0 auto;
 }
+
+h1:hover, .h1_bd:hover {
+  cursor: default;
+}
+
 /* Styling Long dash insider h1 */
 
 .dash {
