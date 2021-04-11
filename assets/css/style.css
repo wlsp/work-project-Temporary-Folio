@@ -60,29 +60,6 @@ span.font2 {
   line-height: 1.2em;
 }
 
-#text01 {
-    color: red;
-}
-
-.text02 {
-    color: #fff;
-    opacity: 0;
-}
-
-.test01 {
-    color: hotpink;
-}
-#text01:hover + .text02 {
-    opacity: 1;
-    transition:2.5s;
-}
-
-#text:hover + .test01 {
-    color: transparent;
-}
-
-
-
 #section_01 aside {
   width: 35%;
   margin: 0 0 0 55%;
