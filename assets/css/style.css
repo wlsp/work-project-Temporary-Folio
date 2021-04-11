@@ -562,19 +562,16 @@ footer a:not(#page03) {
 #mail:hover {
   cursor: url('../img/at.png'), move;
   font-family: Athene;
-  
 }
 
 #dribbble:hover {
   cursor: url('../img/dribbble.png'), none;
   font-family: Athene;
-  
 }
 
 #behance:hover {
   cursor: url('../img//behance.png'), move;
   font-family: Athene;
-
 }
 
 #github:hover {
