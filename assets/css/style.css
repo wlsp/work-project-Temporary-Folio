@@ -398,7 +398,7 @@ footer a:not(#page03) {
 }
 
 #dribbble:hover {
-  cursor: url('../img/dribble.png'), none;
+  cursor: url('../img/dribbble.png'), none;
   font-family: Athene;
   
 }
