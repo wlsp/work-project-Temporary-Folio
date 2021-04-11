@@ -376,7 +376,6 @@ footer a:not(#page03) {
 }
 
 #rotate_logo svg:hover {
-  animation: none;
   cursor: url('../img/insta.png'), move;
 }
 
@@ -386,26 +385,21 @@ footer a:not(#page03) {
 
 #mail:hover {
   cursor: url('../img/email.png'), url('../img/at.png'), move;
-  text-decoration: underline;
-  color: #fff;
+  
 }
 
 #dribbble:hover {
   cursor: url('../img/dribble.png'), none;
-  text-decoration: underline;
-  color: #fff;
+  
 }
 
 #behance:hover {
   cursor: url('../img//behance.png'), move;
-  text-decoration: underline;
-  color: #fff;
+
 }
 
 #github:hover {
   cursor: url('../img/github.png'), move;
-  text-decoration: underline;
-  color: #fff;
 }
 
 .dash:hover {
