@@ -585,7 +585,7 @@ span.font2:hover {
 @media screen and (max-width: 1024px) {
   #nav_header ul {
     margin: 0;
-    padding: 1.5vh 10%;
+    padding: 0;
   }
 
   header h1 {
@@ -671,7 +671,7 @@ span.font2:hover {
 @media screen and (max-width: 992px) {
   #nav_header ul {
     margin: 0;
-    padding: 1.5vh 10%;
+    padding: 0;
   }
 
   header h1 {
@@ -763,7 +763,7 @@ span.font2:hover {
 @media screen and (max-width: 768px) {
   #nav_header ul {
     margin: 0;
-    padding: 1.5vh 10%;
+    padding: 0;
   }
 
   header h1 {
@@ -852,7 +852,7 @@ span.font2:hover {
 @media screen and (max-width: 576px) {
   #nav_header ul {
     margin: 0;
-    padding: 0.5vh 2%;
+    padding: 0;
   }
 
   header h1 {
@@ -943,7 +943,7 @@ span.font2:hover {
 @media screen and (max-width: 425px) {
   #nav_header ul {
     margin: 0;
-    padding: 0.5vh 2%;
+    padding: 0;
   }
 
   header h1 {
@@ -983,7 +983,7 @@ span.font2:hover {
   }
 
   #section_02 {
-    height: 286vh;
+    height: 300vh;
     overflow: hidden;
   }
   #section_02 h3 {
