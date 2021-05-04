@@ -96,10 +96,12 @@ table tr td {
   padding: 5% 0;
 }
 .td_principles {
-    padding: 15% 0 0 0;
+  padding: 15% 0 0 0;
 }
 
-tr:hover {background-color:#f5f5f515;}
+tr:hover {
+  background-color: #f5f5f515;
+}
 
 img#logo_letswork {
   width: 25%;
@@ -110,35 +112,35 @@ img#logo_letswork {
 /* Styling Section 02 */
 
 #section_02 {
-    height: 500vh;
-    background-color: #deb873;
-  }
-  
-  #page_02 {
-    margin: 0;
-    text-align: right;
-    padding: 5% 7.5% 0 0;
-    color: #7d2222;
-  }
-  
-  #section_02 h3 {
-    font-size: 9em;
-    text-align: right;
-    margin: 2% 0 0 0;
-    color: #7d2222;
-  }
-  
-  /* Styling Articles insider Section 02 */
-  
-  #section_02 aside {
-    width: 34.8%;
-    margin: 0 0 0 5%;
-  }
-  
-  #section_02 aside > p {
-    line-height: 2.3em;
-    color: #7d2222;
-  }
+  height: 500vh;
+  background-color: #deb873;
+}
+
+#page_02 {
+  margin: 0;
+  text-align: right;
+  padding: 5% 7.5% 0 0;
+  color: #7d2222;
+}
+
+#section_02 h3 {
+  font-size: 9em;
+  text-align: right;
+  margin: 2% 0 0 0;
+  color: #7d2222;
+}
+
+/* Styling Articles insider Section 02 */
+
+#section_02 aside {
+  width: 34.8%;
+  margin: 0 0 0 5%;
+}
+
+#section_02 aside > p {
+  line-height: 2.3em;
+  color: #7d2222;
+}
 /* Font Import */
 
 @font-face {
@@ -164,7 +166,11 @@ body {
 }
 
 /* Styling HEADS: fonts */
-h1, h2:not(.font2), h3, h4, h5 {
+h1,
+h2:not(.font2),
+h3,
+h4,
+h5 {
   font-family: Athene;
   font-weight: 100;
 }
@@ -250,7 +256,8 @@ header h1 {
   margin: 0 auto;
 }
 
-h1:hover, .h1_bd:hover {
+h1:hover,
+.h1_bd:hover {
   cursor: default;
 }
 
@@ -350,7 +357,9 @@ table tr td {
   padding: 15% 0 0 0;
 }
 
-tr:hover {background-color:#f5f5f515;}
+tr:hover {
+  background-color: #f5f5f515;
+}
 
 svg {
   width: 35%;
@@ -533,49 +542,221 @@ footer a:not(#page03) {
 }
 
 #rotate_logo svg:hover {
-  cursor: url('../img/insta.png'), move;
+  cursor: url("../img/insta.png"), move;
 }
 
-#egg_01:hover, #egg_02:hover, #egg_03:hover {
-  cursor: url('../img/invaders.png'), default;
+#egg_01:hover,
+#egg_02:hover,
+#egg_03:hover {
+  cursor: url("../img/invaders.png"), default;
   font-family: Athene;
 }
 
 #mail:hover {
-  cursor: url('../img/at.png'), move;
+  cursor: url("../img/at.png"), move;
   font-family: Athene;
 }
 
 #dribbble:hover {
-  cursor: url('../img/dribbble.png'), none;
+  cursor: url("../img/dribbble.png"), none;
   font-family: Athene;
 }
 
 #behance:hover {
-  cursor: url('../img//behance.png'), move;
+  cursor: url("../img//behance.png"), move;
   font-family: Athene;
 }
 
 #github:hover {
-  cursor: url('../img/github.png'), move;
+  cursor: url("../img/github.png"), move;
   font-family: Athene;
 }
 
-#nav_header a:hover, span.font2:hover {
+#nav_header a:hover,
+span.font2:hover {
   font-family: Athene;
   color: #7d2222;
   cursor: default;
 }
 
-
-@media screen and (max-width:576px) {
+@media screen and (max-width: 992px) {
   #nav_header ul {
     margin: 0;
-    padding: .5vh 2%;
+    padding: 1.5vh 10%;
   }
 
   header h1 {
-    margin-top: 15%;
+    font-size: 5.5em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 110vh;
+  }
+
+  #section_01 {
+    height: 165vh;
+    overflow: hidden;
+  }
+
+  #section_01 aside {
+    width: 55%;
+    margin: 5% auto;
+  }
+
+  #section_01 aside > p {
+    line-height: 2.5em;
+    text-align: justify;
+  }
+
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02 {
+    height: 463vh;
+    overflow: hidden;
+  }
+  #section_02 h3 {
+    line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 100vh;
+  }
+
+  .article_2 {
+    height: 100vh;
+  }
+
+  .article1_img,
+  .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  footer {
+    height: 90vh;
+  }
+  footer h5 {
+    overflow: hidden;
+    font-size: 7.3rem;
+  }
+
+  footer p {
+    margin: 5% auto;
+    width: 80%;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #nav_header ul {
+    margin: 0;
+    padding: 1.5vh 10%;
+  }
+
+  header h1 {
+    font-size: 5.5em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  #section_01 {
+    height: 165vh;
+    overflow: hidden;
+  }
+  #section_01 h3 {
+    font-size: 9rem;
+  }
+
+  #section_01 aside {
+    width: 85%;
+    margin: 5% 0 0 5%;
+  }
+
+  #section_01 aside > p {
+    line-height: 2.3em;
+    text-align: justify;
+  }
+
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02 {
+    height: 349vh;
+    overflow: hidden;
+  }
+  #section_02 h3 {
+    line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 70vh;
+  }
+
+  .article_2 {
+    height: 65vh;
+  }
+
+  .article1_img,
+  .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  footer {
+    height: 80vh;
+  }
+  footer h5 {
+    overflow: hidden;
+    font-size: 7.3rem;
+  }
+
+  footer p {
+    margin: 5% auto;
+    width: 80%;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #nav_header ul {
+    margin: 0;
+    padding: 0.5vh 2%;
+  }
+
+  header h1 {
     font-size: 3em;
   }
 
@@ -594,34 +775,34 @@ footer a:not(#page03) {
   #section_01 h3 {
     font-size: 9rem;
   }
-  
+
   #section_01 aside {
     width: 85%;
     margin: 5% 0 0 5%;
   }
-  
+
   #section_01 aside > p {
     line-height: 2.3em;
     text-align: justify;
   }
-  
+
   table {
     padding: 5% 0 0 0;
   }
 
-  #section_02{
+  #section_02 {
     height: 254vh;
-   overflow: hidden;
+    overflow: hidden;
   }
   #section_02 h3 {
-   line-height: 1em;
+    line-height: 1em;
   }
 
   #section_02 h4 {
     font-size: 2.5rem;
   }
 
-  #section_02 aside  {
+  #section_02 aside {
     width: 90%;
     text-align: justify;
   }
@@ -631,201 +812,27 @@ footer a:not(#page03) {
   }
 
   .article_2 {
-  height: 45vh;
+    height: 45vh;
   }
 
-  .article1_img, .article2_img {
+  .article1_img,
+  .article2_img {
     margin: 0 auto;
     width: 100%;
-    margin-top: 5%
+    margin-top: 5%;
   }
 
   footer {
     height: 80vh;
   }
- footer h5 {
-   overflow: hidden;
-   font-size: 7.3rem;
- }
-
- footer p {
-   margin: 5% auto;
-   width: 80%;
-   text-align: justify;
- }
-
-
-}
-
-
-
-@media screen and (max-width:768px) {
-  #nav_header ul {
-    margin: 0;
-    padding: 1.5vh 10%;
-  }
-
-  header h1 {
-    margin-top: 5%;
-    font-size: 5.5em;
-  }
-
-  .nav_item2 {
-    margin-left: 15%;
-  }
-
-  header {
-    height: 100vh;
-  }
-
-  #section_01 {
-    height: 165vh;
+  footer h5 {
     overflow: hidden;
-  }
-  #section_01 h3 {
-    font-size: 9rem;
-  }
-  
-  #section_01 aside {
-    width: 85%;
-    margin: 5% 0 0 5%;
-  }
-  
-  #section_01 aside > p {
-    line-height: 2.3em;
-    text-align: justify;
-  }
-  
-  table {
-    padding: 5% 0 0 0;
+    font-size: 7.3rem;
   }
 
-  #section_02{
-    height: 349vh;
-   overflow: hidden;
-  }
-  #section_02 h3 {
-   line-height: 1em;
-  }
-
-  #section_02 h4 {
-    font-size: 2.5rem;
-  }
-
-  #section_02 aside  {
-    width: 90%;
-    text-align: justify;
-  }
-
-  .article_1 {
-    height: 70vh;
-  }
-
-  .article_2 {
-  height: 65vh;
-  }
-
-  .article1_img, .article2_img {
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 5%
-  }
-
-  footer {
-    height: 80vh;
-  }
- footer h5 {
-   overflow: hidden;
-   font-size: 7.3rem;
- }
-
- footer p {
-   margin: 5% auto;
-   width: 80%;
-   text-align: justify;
- }
-}
-@media screen and (max-width:992px) {
-  #nav_header ul {
-    margin: 0;
-    padding: 1.5vh 10%;
-  }
-
-  header h1 {
-    margin-top: 5%;
-    font-size: 5.5em;
-  }
-
-  .nav_item2 {
-    margin-left: 15%;
-  }
-
-  header {
-    height: 110vh;
-  }
-
-  #section_01 {
-    height: 165vh;
-    overflow: hidden;
-  }
-  
-  
-  #section_01 aside {
-    width: 55%;
+  footer p {
     margin: 5% auto;
-  }
-  
-  #section_01 aside > p {
-    line-height: 2.5em;
+    width: 80%;
     text-align: justify;
   }
-  
-  table {
-    padding: 5% 0 0 0;
-  }
-
-  #section_02{
-    height: 463vh;
-   overflow: hidden;
-  }
-  #section_02 h3 {
-   line-height: 1em;
-  }
-
-  #section_02 h4 {
-    font-size: 2.5rem;
-  }
-
-  #section_02 aside  {
-    width: 90%;
-    text-align: justify;
-  }
-
-  .article_1 {
-    height: 100vh;
-  }
-
-  .article_2 {
-  height: 100vh;
-  }
-
-  .article1_img, .article2_img {
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 5%
-  }
-
-  footer {
-    height: 90vh;
-  }
- footer h5 {
-   overflow: hidden;
-   font-size: 7.3rem;
- }
-
- footer p {
-   margin: 5% auto;
-   width: 80%;
-   text-align: justify;
- }
 }
