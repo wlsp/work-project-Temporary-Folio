@@ -1027,4 +1027,101 @@ span.font2:hover {
     width: 80%;
     text-align: justify;
   }
+
+  #nav_footer {
+    padding-top: 12%;
+  }
+}
+@media screen and (max-width: 414px) and (max-height:896px) {
+  #nav_header ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    margin-top: 0%;
+    padding-top: 5%;
+    font-size: 3em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  #section_01 {
+    height: 160vh;
+    overflow: hidden;
+  }
+  #section_01 h3 {
+    font-size: 9rem;
+  }
+
+  #section_01 aside {
+    width: 85%;
+    margin: 5% 0 0 5%;
+  }
+
+  #section_01 aside > p {
+    line-height: 2.3em;
+    text-align: justify;
+  }
+
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02 {
+    height: 293.5vh;
+    overflow: hidden;
+  }
+  #section_02 h3 {
+    line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 55vh;
+  }
+
+  .article_2 {
+    height: 55vh;
+  }
+
+  .article1_img,
+  .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  footer {
+    height: 100vh;
+  }
+  footer h5 {
+    overflow: hidden;
+    font-size: 7.3rem;
+  }
+
+  footer p {
+    margin: 5% auto;
+    width: 80%;
+    text-align: justify;
+  }
+
+  #nav_footer {
+    margin-top: 20%;
+    background-color: #002a5a;
+  }
 }
