@@ -567,3 +567,265 @@ footer a:not(#page03) {
   cursor: default;
 }
 
+
+@media screen and (max-width:576px) {
+  #nav_header ul {
+    margin: 0;
+    padding: .5vh 2%;
+  }
+
+  header h1 {
+    margin-top: 15%;
+    font-size: 3em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 95vh;
+  }
+
+  #section_01 {
+    height: 140vh;
+    overflow: hidden;
+  }
+  #section_01 h3 {
+    font-size: 9rem;
+  }
+  
+  #section_01 aside {
+    width: 85%;
+    margin: 5% 0 0 5%;
+  }
+  
+  #section_01 aside > p {
+    line-height: 2.3em;
+    text-align: justify;
+  }
+  
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02{
+    height: 254vh;
+   overflow: hidden;
+  }
+  #section_02 h3 {
+   line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside  {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 45vh;
+  }
+
+  .article_2 {
+  height: 45vh;
+  }
+
+  .article1_img, .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%
+  }
+
+  footer {
+    height: 80vh;
+  }
+ footer h5 {
+   overflow: hidden;
+   font-size: 7.3rem;
+ }
+
+ footer p {
+   margin: 5% auto;
+   width: 80%;
+   text-align: justify;
+ }
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+  #nav_header ul {
+    margin: 0;
+    padding: 1.5vh 10%;
+  }
+
+  header h1 {
+    margin-top: 5%;
+    font-size: 5.5em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  #section_01 {
+    height: 165vh;
+    overflow: hidden;
+  }
+  #section_01 h3 {
+    font-size: 9rem;
+  }
+  
+  #section_01 aside {
+    width: 85%;
+    margin: 5% 0 0 5%;
+  }
+  
+  #section_01 aside > p {
+    line-height: 2.3em;
+    text-align: justify;
+  }
+  
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02{
+    height: 349vh;
+   overflow: hidden;
+  }
+  #section_02 h3 {
+   line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside  {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 70vh;
+  }
+
+  .article_2 {
+  height: 65vh;
+  }
+
+  .article1_img, .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%
+  }
+
+  footer {
+    height: 80vh;
+  }
+ footer h5 {
+   overflow: hidden;
+   font-size: 7.3rem;
+ }
+
+ footer p {
+   margin: 5% auto;
+   width: 80%;
+   text-align: justify;
+ }
+}
+@media screen and (max-width:992px) {
+  #nav_header ul {
+    margin: 0;
+    padding: 1.5vh 10%;
+  }
+
+  header h1 {
+    margin-top: 5%;
+    font-size: 5.5em;
+  }
+
+  .nav_item2 {
+    margin-left: 15%;
+  }
+
+  header {
+    height: 110vh;
+  }
+
+  #section_01 {
+    height: 165vh;
+    overflow: hidden;
+  }
+  
+  
+  #section_01 aside {
+    width: 55%;
+    margin: 5% auto;
+  }
+  
+  #section_01 aside > p {
+    line-height: 2.5em;
+    text-align: justify;
+  }
+  
+  table {
+    padding: 5% 0 0 0;
+  }
+
+  #section_02{
+    height: 463vh;
+   overflow: hidden;
+  }
+  #section_02 h3 {
+   line-height: 1em;
+  }
+
+  #section_02 h4 {
+    font-size: 2.5rem;
+  }
+
+  #section_02 aside  {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .article_1 {
+    height: 100vh;
+  }
+
+  .article_2 {
+  height: 100vh;
+  }
+
+  .article1_img, .article2_img {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%
+  }
+
+  footer {
+    height: 90vh;
+  }
+ footer h5 {
+   overflow: hidden;
+   font-size: 7.3rem;
+ }
+
+ footer p {
+   margin: 5% auto;
+   width: 80%;
+   text-align: justify;
+ }
+}
